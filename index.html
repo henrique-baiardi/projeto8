@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+            <div class="dropdown-menu" aria-labelledby="dropdown01">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <div style="position: relative;top: 55px;">
+      <section style="width: 100%;min-height: 600px;background-image: url('imagens/bg.jpg');background-size: cover;background-position: center;position: relative;background-attachment: fixed;">
+
+        <div style="z-index: 1; width: 100%; height: 100%;position: absolute;left: 0;top: 0;background: rgba(40,40,40,0.4);">
+
+          <div class="container">
+            <div class="row" style="color: white;margin-top: 140px;">
+              <div class="col-md-6">
+                <h2>Sejam muito bem-vindo(a)</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum placerat tortor vel consectetur. Quisque quis ullamcorper sapien. Fusce volutpat, diam et bibendum tincidunt, libero neque finibus nisi, sit amet rutrum urna eros nec enim. In quis purus elit. Nunc augue nulla, vulputate vitae maximus at, lobortis in tellus. Proin vitae eleifend tellus. Integer aliquam diam quis libero cursus, quis convallis diam fringilla</p>
+              </div>
+
+              <div class="col-md-6" style="padding-left: 30px;">
+                <h2>Inscreva-se para nossa lista!</h2>
+                <form>
+                  <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1"aria-describedby="emailHelp">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+                  <button type="button" class="btn btn-secondary">Enviar</button>
+                </form>
+              </div>
+            </div><!--row texto bg-->
+          </div>
+          
+        </div><!--overlay-->
+      </section>
+
+
+      <section class="chamada" style="background:#3FA3C5;padding: 8px 0;color: white;">
+        <div class="container">
+          <h2 class="text-center" style="font-size: 35px;"><i class="fas fa-arrow-circle-down"></i></h2>
+        </div>
+      </section>
+
+      <section style="padding: 30px 0;background:rgb(180,180,180); "><!--sobre-->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div style="position: relative;"><!--custon title-->
+                <div style="position: absolute;left: 0;top: 0;width: 50px;height: 4px;background:#3FA3C5"></div>
+                <h2 style="font-size: 25px;"> Sobre</h2>
+              </div><!--custon title-->
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum placerat tortor vel consectetur. Quisque quis ullamcorper sapien. Fusce volutpat, diam et bibendum tincidunt, libero neque finibus nisi, sit amet rutrum urna eros nec enim. In quis purus elit. Nunc augue nulla, vulputate vitae maximus at, lobortis in tellus. Proin vitae eleifend tellus...</p>
+              <!-- Button trigger modal -->
+              <button type="button" style="background: #3FA3C5" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Saiba mais!
+              </button>
+            </div><!--col md 12-->
+          </div><!--row-->
+        </div><!--container-->  
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Salve povo!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Quem quiser e puder me contrata, eu sou legal! =)
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Save changes</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section><!--sobre-->
+
+      <section style="padding: 40px 0;"><!--diferenciais-->
+        <div class="container">
+          <div style="position: relative;"><!--custon title-->
+              <div style="position: absolute;left: 0;top: 0;width: 50px;height: 4px;background:#3FA3C5"></div>
+              <h2 style="font-size: 25px;">Nossos diferenciais</h2>
+          </div><!--custon title-->
+          <div class="row">
+            <div class="col-md-4 text-center">
+              <h2 style="padding: 10px 0;border-bottom: 2px dotted black;"><i class="fas fa-user-tie"></i></h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum placerat tortor vel consectetur. Quisque quis ullamcorper sapien. Fusce volutpat, diam et bibendum tincidunt, libero neque finibus nisi, sit amet rutrum urna eros nec enim. In quis purus elit.</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <h2 style="padding: 10px 0;border-bottom: 2px dotted black;"><i class="fas fa-bell"></i></h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum placerat tortor vel consectetur. Quisque quis ullamcorper sapien. Fusce volutpat, diam et bibendum tincidunt, libero neque finibus nisi, sit amet rutrum urna eros nec enim. In quis purus elit.</p>
+            </div>
+            <div class="col-md-4 text-center">
+              <h2 style="padding: 10px 0;border-bottom: 2px dotted black;"><i class="fas fa-comments"></i></h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum placerat tortor vel consectetur. Quisque quis ullamcorper sapien. Fusce volutpat, diam et bibendum tincidunt, libero neque finibus nisi, sit amet rutrum urna eros nec enim. In quis purus elit.</p>
+            </div>
+          </div>
+        </div>
+      </section><!--diferenciais-->
+
+      <section style="padding: 40px 0; background: #3FA3C5"><!--conviter-->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 text-center" style="padding-right: 80px;">
+              <h2 style="color: white;"><i class="fab fa-angellist"></i>Participe da nossa lista!</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum placerat tortor vel consectetur. Quisque quis ullamcorper sapien. Fusce volutpat, diam et bibendum tincidunt, libero neque finibus nisi, sit amet rutrum urna eros nec enim. In quis purus elit.</p>
+            </div>
+            <div class="col-md-6">
+              <form class="needs-validation" novalidate>
+                <div class="form-row">
+                  <div class="col-md-6 mb-3">
+                    <label for="validationCustom01">First name</label>
+                    <input type="text" class="form-control" id="validationCustom01" placeholder="Nome" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="validationCustom02">Last name</label>
+                    <input type="text" class="form-control" id="validationCustom02" placeholder="Sobrenome" required>
+                    <div class="valid-feedback">
+                      Looks good!
+                    </div>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-12">  
+                    <label for="inputEmail4">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                    <label class="form-check-label" for="invalidCheck">
+                      Agree to terms and conditions
+                    </label>
+                    <div class="invalid-feedback">
+                      You must agree before submitting.
+                    </div>
+                  </div>
+                </div>
+                <button class="btn btn-primary" type="submit">Submit form</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section><!--conviter-->
+
+      <!-- FOOTER -->
+      <footer class="container text-center">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2017-2020 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+
+
+    </div><!-- box fix-->
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  </body>
+</html>
